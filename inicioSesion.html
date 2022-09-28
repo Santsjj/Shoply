@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/inicioSesion.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+    <title>Inicio de Sesión</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/img/pre-logo.JPG ">
+            <h2>Shoply</h2>
+        </div>
+        <nav>
+            <a href="./1principal.html" class="a1"><i class="fa-solid fa-shop"></i> Menú Principal</a>
+            <a href="./view/carrito.html" class="a2"><i class="fa-solid fa-cart-shopping"></i> Mi Carrito</a>
+            <a href="./view/mensajes.html" class="a3"><i class="fa-solid fa-comments"></i> Chat</a>
+            <a href="./view/inicioSesion.html" class="a4"><i class="fa-solid fa-user"></i> Iniciar sesión</a>
+        </nav>
+    </header>
+    <main>  
+        <form class="form">
+            <h1 class="titleInicio">Iniciar sesión</h1>
+            <div class="inputCont">
+                <label for="userName">Nombre usuario</label>
+                <i class="fa-solid fa-circle-user"></i>
+                <input type="text" id="userName" name="userName" placeholder="Nombre usuario" minlength="3" maxlength="20" tabindex="0"autofocus="true" required>
+            </div>
+            <div class="inputCont">
+                <label for="userPassword" id="password">Contraseña</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="userPassword" name="userPassword" placeholder="Contraseña" minlength="3" maxlength="20" tabindex="0"autofocus="true" required>
+            </div>
+            <div class="inputCont">
+                <a href="./registro.html" class="registrate" id="registrate">¿No tienes cuenta? ¡Regístrate!</a><br>
+            </div>
+            <div class="inputCont">
+                <button href="" type="submit" class="continue" id="continue"><strong>Continuar</strong></button>   
+            </div>
+        </form>
+    </main>
+    <footer>
+        <section>
+            <div class="logo2">
+                <img src="./assets/img/pre-logo.JPG ">
+                <h2>Shoply</h2>
+            </div>
+            <div class="contacto">
+                <h3 class="titulo1">¡Contáctanos!</h3>
+                <a><i class="fa-solid fa-phone"></i>  Atención al cliente: +57-123456789</a> <br>
+                <a><i class="fa-solid fa-envelope"></i>  Correo electrónico: shopy@ejemplo.com </a>
+            </div>
+            <div class="redes">
+                <h3 class="titulo2">Nuestras redes sociales</h3>
+                <a href=""><i class="fa-brands fa-facebook"></i> Facebook</a><br>
+                <a href=""><i class="fa-brands fa-instagram"></i> Instagram</a><br>
+                <a href=""><i class="fa-brands fa-twitter"></i> Twitter</a><br>
+                <a href=""><i class="fa-brands fa-tiktok"></i> Tik Tok</a><br>
+            </div>
+        </section>
+    </footer>
+    <script src="https://kit.fontawesome.com/0bf8ac12b9.js" crossorigin="anonymous"></script>
+    <script src="../scripts/inicioSesion.js"></script>
+</body>
+</html>
